@@ -1,4 +1,5 @@
-C:\Monal\Work\uv-venv\FDE1-uv-env\Scripts\activate
+
+source "/Users/snehajitdas/Documents/AI FDE/uv-env/uv-py312/bin/activate"
 
 uv pip install ipykernel
 
