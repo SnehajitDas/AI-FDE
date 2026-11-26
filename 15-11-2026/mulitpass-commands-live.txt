@@ -1,0 +1,30 @@
+multipass set local.privileged-mounts=true
+
+multipass mount C:\Monal\Work\multipass-share linux-fde-vm-01:/home/ubuntu/share
+
+multipass shell linux-fde-vm-01
+
+sudo apt update && sudo apt install python3 python3-pip
+
+cut -d: -f1 /etc/passwd
+
+cat /etc/passwd
+
+ubuntu --> fde-app
+
+ps -ef -o pid,ppid,cmd
+
+ps aux
+
+ss
+
+ss -tulnp | grep :22
+
+top
+
+htop
+
+pstree
+
+nohup python3 loop.py &
+nohup   --->nohup.out
